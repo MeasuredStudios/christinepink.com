@@ -12,18 +12,6 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: config.manifestName,
-        short_name: config.manifestShortName,
-        start_url: config.pathPrefix || config.manifestStartUrl,
-        background_color: config.manifestBackgroundColor,
-        theme_color: config.manifestThemeColor,
-        display: config.manifestDisplay,
-        icon: config.manifestIcon, // This path is relative to the root of the site.
-      },
-    },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
@@ -53,12 +41,6 @@ module.exports = {
         sampleRate: 5,
         siteSpeedSampleRate: 10,
         cookieDomain: 'christinepink.com',
-      },
-    },
-    {
-      resolve: `gatsby-plugin-facebook-pixel`,
-      options: {
-        pixelId: '',
       },
     },
     'gatsby-plugin-offline',
