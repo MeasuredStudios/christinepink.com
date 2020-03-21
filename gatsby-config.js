@@ -5,6 +5,7 @@ module.exports = {
     title: `Christine Pink`,
     description: `Christine Pink's Personal Website`,
     author: `Christine Pink`,
+    siteUrl: `https://www.christinepink.com`
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -35,7 +36,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: '',
+        trackingId: 'UA-161544203-1',
         // Puts tracking script in the head instead of the body
         head: false,
         sampleRate: 5,
