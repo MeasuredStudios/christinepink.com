@@ -2,10 +2,8 @@ import '../assets/sass/main.scss';
 
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import Helmet from 'react-helmet';
 
 import Footer from './Footer';
-import SideBar from './Sidebar';
 
 class Layout extends Component {
   constructor(props) {
@@ -28,7 +26,7 @@ class Layout extends Component {
   }
 
   render() {
-    const { children, fullMenu } = this.props;
+    const { children } = this.props;
     const { isPreloaded } = this.state;
     return (
       <div>

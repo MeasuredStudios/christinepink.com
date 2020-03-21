@@ -1,11 +1,9 @@
 import React from 'react';
 
-import config from '../../config';
 import pic8 from '../assets/images/aChristine.jpeg';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
-
 import Layout from '../components/Layout';
 
 const IndexPage = () => (
@@ -15,8 +13,8 @@ const IndexPage = () => (
         <div className="image fit-profile">
           <img src={pic8} alt="Christine Pink" />
         </div>
-        <h2>{config.heading}</h2>
-        <p>{config.subHeading}</p>
+        <h2>Christine Pink</h2>
+        <p>Coach, Project Manager, Life-Long Learner, & Empowering Others.</p>
       </div>
     </section>
 
