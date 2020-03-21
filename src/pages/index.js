@@ -4,7 +4,7 @@ import pic8 from '../assets/images/aChristine.jpeg';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 
 const IndexPage = () => (
   <Layout>
