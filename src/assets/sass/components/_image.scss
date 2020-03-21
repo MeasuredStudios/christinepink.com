@@ -12,7 +12,7 @@
 		display: inline-block;
 		position: relative;
 
-		img {
+		images {
 			border-radius: _size(border-radius);
 			display: block;
 		}
@@ -21,7 +21,7 @@
 		&.right {
 			max-width: 40%;
 
-			img {
+			images {
 				width: 100%;
 			}
 		}

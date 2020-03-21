@@ -5,51 +5,89 @@ export default function Footer() {
     <section id="footer">
       <div className="inner">
         <h2 className="major">Get in touch</h2>
-        <p>
-          Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-          Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-          egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
-          tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
-        </p>
-        <form method="post" action="/#">
-          <div className="fields">
-            <div className="field">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field">
-              <label htmlFor="email">Email</label>
-              <input type="email" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-          </div>
-          <ul className="actions">
-            <li>
-              <input type="submit" value="Send Message" />
-            </li>
-          </ul>
-        </form>
-        <ul className="contact">
-          <li className="fa-home">{config.address}</li>
-
-          <li className="fa-phone">{config.phone}</li>
-
-          {config.socialLinks.map(social => {
-            const { icon, url } = social;
-            return (
-              <li className={`${icon}`} key={url}>
-                <a href={url}>{url}</a>
+        <div className="row">
+          <div className="col-12 col-12-medium">
+            <ul className="icons">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/christine-rosado-4432a5182/"
+                  className="icon fa-linkedin"
+                  rel="noopener"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <span className="label">LinkedIn</span>
+                </a>
               </li>
-            );
-          })}
-        </ul>
+              <li>
+                <a
+                  href="https://www.facebook.com/COACHCHRISTINEPINK"
+                  className="icon fa-facebook"
+                  rel="noopener"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <span className="label">Facebook</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/coachchristinepink/"
+                  className="icon fa-instagram"
+                  rel="noopener"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <span className="label">Instagram</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/christinepink"
+                  className="icon fa-twitter"
+                  rel="noopener"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <span className="label">Twitter</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
         <ul className="copyright">
-          <li>&copy; Jovani Pink</li>
           <li>
-            Design: <a href="http://html5up.net">HTML5 UP</a>
+            &copy;:{' '}
+            <a
+              href="https://www.measuredstudios.com/"
+              rel="noopener"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Measured Studios
+            </a>
+          </li>
+          <li>
+            Design:{' '}
+            <a
+              href="https://html5up.net"
+              rel="noopener"
+              rel="noreferrer"
+              target="_blank"
+            >
+              HTML5 UP
+            </a>
+          </li>
+          <li>
+            Images:{' '}
+            <a
+              href="https://unsplash.com/"
+              rel="noopener"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Unsplash
+            </a>
           </li>
         </ul>
       </div>
