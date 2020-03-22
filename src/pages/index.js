@@ -1,26 +1,20 @@
 import React from 'react';
 
-import Layout from '../components/Layout';
-
+import pic8 from '../assets/images/aChristine.jpeg';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
-import pic8 from '../assets/images/aChristine.jpeg';
+import Layout from '../components/layout';
 
-import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
         <div className="image fit-profile">
-          <img src={pic8} alt="" />
+          <img src={pic8} alt="Christine Pink" />
         </div>
-        <h2>{config.heading}</h2>
-        <p>{config.subHeading}</p>
+        <h2>Christine Pink</h2>
+        <p>Coach, Project Manager, Life-Long Learner, & Empowering Others.</p>
       </div>
     </section>
 
@@ -33,15 +27,16 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">COACH</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Experienced Program Specialist with a demonstrated history of
+              working in the primary/secondary education industry. Skilled in
+              Coaching & Mentoring, Curriculum Development, Public Speaking,
+              Training, and Teaching. Strong professional with a Master of
+              Education - MEd focused in Educational Leadership and
+              Administration, General from Stetson University.
             </p>
-            <a href="/#" className="special">
-              WORK
-            </a>
+            <p className="special">
+              MY WORK
+            </p>
           </div>
         </div>
       </section>
@@ -54,15 +49,15 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">PROJECT MANAGER</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              We all enjoy proper expectations are set around what can be
+              delivered, by when, and for how much. I am responsible for
+              planning, overseeing, discussing projects to ensure they are
+              completed in a timely scope and valuable to the client. We love
+              Basecamp.
             </p>
-            <a href="/#" className="special">
-              BUSINESS
-            </a>
+            <p className="special">
+              OUR BUSINESS
+            </p>
           </div>
         </div>
       </section>
@@ -75,14 +70,19 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">COMMUNITY</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              We love and believe in giving back to the community and sharing is
+              the center of our mission. JOVI allows us to share on how we got
+              here, reflect on the current growth, and the vision for the
+              future.
             </p>
-            <a href="/#" className="special">
-              CHURCH
+            <a
+              href="https://www.jovi.solutions/"
+              className="special"
+              rel="noopener"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Blog
             </a>
           </div>
         </div>

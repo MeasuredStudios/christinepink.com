@@ -6,10 +6,10 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: './src/assets/img/CR.png',
+  manifestIcon: './src/assets/images/CR.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Christine Pink',
-  subHeading: 'Believer, Wife, Mother, Coach, Life-Long Learner & Empowering Others.',
+  subHeading: 'Coach, Project Manager, Life-Long Learner, & Empowering Others.',
   // social
   socialLinks: [
     {

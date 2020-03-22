@@ -5,6 +5,7 @@ module.exports = {
     title: `Christine Pink`,
     description: `Christine Pink's Personal Website`,
     author: `Christine Pink`,
+    siteUrl: `https://www.christinepink.com`
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -18,7 +19,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/img/CR.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/CR.png`, // This path is relative to the root of the site.
       },
     },
     {
@@ -35,7 +36,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: '',
+        trackingId: 'UA-161544203-1',
         // Puts tracking script in the head instead of the body
         head: false,
         sampleRate: 5,
