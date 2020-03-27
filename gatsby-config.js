@@ -5,11 +5,20 @@ module.exports = {
     title: `Christine Pink`,
     description: `Christine Pink's Personal Website`,
     author: `Christine Pink`,
-    siteUrl: `https://www.christinepink.com`
+    siteUrl: `https://www.christinepink.com`,
   },
   plugins: [
     'gatsby-plugin-sass',
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
+      },
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
