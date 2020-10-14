@@ -76,7 +76,7 @@
     "jest": "26.5.3",
     "ts-jest": "26.4.1",
     "react-test-renderer": "16.13.1",
-    "@testing-library/react": "11.0.4",
+    "@testing-library/react": "11.1.0",
     "@testing-library/react-hooks": "3.4.2",
     "@testing-library/user-event": "12.1.7",
     "@testing-library/jest-dom": "5.11.4",
