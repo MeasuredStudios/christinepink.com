@@ -102,7 +102,7 @@
 		}
 
 		&:focus {
-			border-color: desaturate(lighten(_palette(accent), 6), 3);
+			border-color: desaturate(lighten(_palette(accent1), 6), 3);
 		}
 	}
 
@@ -193,7 +193,7 @@
 
 		&:focus + label {
 			&:before {
-				border-color: _palette(accent);
+				border-color: _palette(accent1);
 			}
 		}
 	}
