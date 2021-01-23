@@ -56,7 +56,15 @@ const IndexPage = () => (
               completed in a timely scope and valuable to the client. We love
               Basecamp.
             </p>
-            <p className="special">OUR BUSINESS</p>
+            <p className="special">
+              <a
+                href="https://www.measuredstudios.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                MEASURED STUDIOS
+              </a>
+            </p>
           </div>
         </div>
       </section>
