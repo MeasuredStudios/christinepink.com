@@ -25,7 +25,15 @@ const Layout = ({ children }) => {
         title={'Christine Pink'}
         meta={[
           { name: 'description', content: `Christine Pink's Personal Website` },
-          { name: 'keywords', content: 'ChristinePink, Christine Pink, Coach, leadership, Educational leadership, project management, scrum, agile' },
+          {
+            name: 'keywords',
+            content:
+              'ChristinePink, Christine Pink, Coach, leadership, Educational leadership, project management, scrum, agile',
+          },
+          {
+            name: 'msvalidate.01',
+            content: 'DB6D40F5ADF954CF7A904C6A2A5700AA',
+          },
         ]}
       >
         <html lang="en" />
