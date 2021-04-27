@@ -53,7 +53,7 @@
     "gatsby-transformer-sharp": "3.3.0",
     "gatsby-plugin-manifest": "3.3.0",
     "gatsby-plugin-sitemap": "3.3.0",
-    "gatsby-plugin-robots-txt": "1.5.5",
+    "gatsby-plugin-robots-txt": "1.5.6",
     "gatsby-plugin-offline": "4.3.0",
     "gatsby-plugin-google-analytics": "3.3.0",
     "gatsby-plugin-netlify": "3.3.0"
